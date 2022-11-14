@@ -30,3 +30,12 @@ Finding similar words implementation is notable:
   1. ```most_similar``` give word based on meaning.
 1. Due to Spacy.PhraseMatcher behavior, it is better to provide case variety of a keyword for better matching results. See ```libs.py``` ```get_case_variety()``` for details.
 
+Bringing spacy across devices might be arduous as there is no out-of-the-box support.
+1. https://github.com/explosion/spaCy/issues/4682
+1. https://qithub.com/d99kris/spacy-cpp/issues/8
+1. https://github.com/ines/spacy-js
+
+There are more straight-forward cross-platform solutions:
+1. https://github.com/axa-group/nlp.js
+1. https://github.com/NaturalNode/natural
+1. https://github.com/winkjs/wink-nlp
